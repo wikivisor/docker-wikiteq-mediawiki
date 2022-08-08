@@ -224,9 +224,9 @@ RUN set -x; \
 	&& cd $MW_HOME/extensions/UniversalLanguageSelector \
 	&& git checkout -q 25e6fd1940975c652838c3db092c55ae74d3de7b \
 	# Survey
-	&& git clone --single-branch -b $MW_VERSION https://gerrit.wikimedia.org/r/mediawiki/extensions/Survey $MW_HOME/extensions/Survey \
-	&& cd $MW_HOME/extensions/Survey \
-	&& git checkout -q eab540c594d630c6672cc0920951a45f4e272f81 \
+	# && git clone --single-branch -b $MW_VERSION https://gerrit.wikimedia.org/r/mediawiki/extensions/Survey $MW_HOME/extensions/Survey \
+	# && cd $MW_HOME/extensions/Survey \
+	# && git checkout -q eab540c594d630c6672cc0920951a45f4e272f81 \
 	# LiquidThreads
 	&& git clone --single-branch -b $MW_VERSION https://gerrit.wikimedia.org/r/mediawiki/extensions/LiquidThreads $MW_HOME/extensions/LiquidThreads \
 	&& cd $MW_HOME/extensions/LiquidThreads \
@@ -244,9 +244,9 @@ RUN set -x; \
 	&& cd $MW_HOME/extensions/ApprovedRevs \
 	&& git checkout -q 99fadf2d9e030b8305e53e6557d32dc67ffbbc68 \
 	# Collection
-	&& git clone --single-branch -b $MW_VERSION https://gerrit.wikimedia.org/r/mediawiki/extensions/Collection $MW_HOME/extensions/Collection \
-	&& cd $MW_HOME/extensions/Collection \
-	&& git checkout -q c22330cb462cbcb7e01da48b7ab1e0caa4e3841f \
+	# && git clone --single-branch -b $MW_VERSION https://gerrit.wikimedia.org/r/mediawiki/extensions/Collection $MW_HOME/extensions/Collection \
+	# && cd $MW_HOME/extensions/Collection \
+	# && git checkout -q c22330cb462cbcb7e01da48b7ab1e0caa4e3841f \
 	# HTMLTags
 	&& git clone --single-branch -b $MW_VERSION https://gerrit.wikimedia.org/r/mediawiki/extensions/HTMLTags $MW_HOME/extensions/HTMLTags \
 	&& cd $MW_HOME/extensions/HTMLTags \
@@ -467,19 +467,19 @@ RUN set -x; \
 	&& git checkout e9ebcb7a60e04a4b6054538032d1d2e1badf9934 \
 	# SimpleTooltip
 	&& cd $MW_HOME/extensions \
-	&& git clone https://github.com/Fannon/SimpleTooltip.git \
+	&& git clone https://github.com/Universal-Omega/SimpleTooltip.git \
 	&& cd SimpleTooltip \
-	&& git checkout -b $MW_VERSION 2476bff8f4555f86795c26ca5fdb7db99bfe58d1 \
+	&& git checkout -b $MW_VERSION 5986ddf74177423c384b044cce62fcff3e26f8e6 \
 	# PubmedParser
-	&& cd $MW_HOME/extensions \
-	&& git clone https://github.com/WikiTeq/PubmedParser.git \
-	&& cd PubmedParser \
-	&& git checkout -b $MW_VERSION 6b23e04d7edefb8eebf38421e70ca63cdb90fa7b \
+	# && cd $MW_HOME/extensions \
+	# && git clone https://github.com/WikiTeq/PubmedParser.git \
+	# && cd PubmedParser \
+	# && git checkout -b $MW_VERSION 6b23e04d7edefb8eebf38421e70ca63cdb90fa7b \
 	# NCBITaxonomyLookup
-	&& cd $MW_HOME/extensions \
-    && git clone https://gerrit.wikimedia.org/r/mediawiki/extensions/NCBITaxonomyLookup \
-    && cd NCBITaxonomyLookup \
-    && git checkout -b $MW_VERSION 512a390a62fbe6f3a7480641f6582126678e5a7c \
+	# && cd $MW_HOME/extensions \
+    # && git clone https://gerrit.wikimedia.org/r/mediawiki/extensions/NCBITaxonomyLookup \
+    # && cd NCBITaxonomyLookup \
+    # && git checkout -b $MW_VERSION 512a390a62fbe6f3a7480641f6582126678e5a7c \
     # Skinny
     && cd $MW_HOME/extensions \
     && git clone https://github.com/tinymighty/skinny.git Skinny \
@@ -540,15 +540,15 @@ RUN set -x; \
     && cd UploadWizardExtraButtons \
     && git checkout -b $MW_VERSION accba1b9b6f50e67d709bd727c9f4ad6de78c0c0 \
     # Mendeley
-    && cd $MW_HOME/extensions \
-    && git clone https://github.com/nischayn22/Mendeley.git \
-    && cd Mendeley \
-    && git checkout -b $MW_VERSION b866c3608ada025ce8a3e161e4605cd9106056c4 \
+    # && cd $MW_HOME/extensions \
+    # && git clone https://github.com/nischayn22/Mendeley.git \
+    # && cd Mendeley \
+    # && git checkout -b $MW_VERSION b866c3608ada025ce8a3e161e4605cd9106056c4 \
     # Scopus
-    && cd $MW_HOME/extensions \
-    && git clone https://github.com/nischayn22/Scopus.git \
-    && cd Scopus \
-    && git checkout -b $MW_VERSION 4fe8048459d9189626d82d9d93a0d5f906c43746 \
+    # && cd $MW_HOME/extensions \
+    # && git clone https://github.com/nischayn22/Scopus.git \
+    # && cd Scopus \
+    # && git checkout -b $MW_VERSION 4fe8048459d9189626d82d9d93a0d5f906c43746 \
     # SemanticQueryInterface
     && cd $MW_HOME/extensions \
     && git clone https://github.com/vedmaka/SemanticQueryInterface.git \
@@ -586,7 +586,41 @@ RUN set -x; \
     && cd $MW_HOME/extensions/Buggy \
     && git checkout -q 613c5f197ae28ed8e0da5748a28841a32987cd59 \
     # Citoid
-    && git clone -b $MW_VERSION https://gerrit.wikimedia.org/r/mediawiki/extensions/Citoid $MW_HOME/extensions/Citoid
+    && git clone -b $MW_VERSION https://gerrit.wikimedia.org/r/mediawiki/extensions/Citoid $MW_HOME/extensions/Citoid \
+    # MultiPurge
+    && git clone --single-branch -b master https://github.com/octfx/mediawiki-extensions-MultiPurge.git $MW_HOME/extensions/MultiPurge \
+    && cd $MW_HOME/extensions/MultiPurge \
+    && git checkout -q 5692f74a8a03a99cd8c09608110d96b2ebafd20b \
+    # CookieWarning
+    && git clone --single-branch -b $MW_VERSION https://github.com/wikimedia/mediawiki-extensions-CookieWarning.git $MW_HOME/extensions/CookieWarning \
+    && cd $MW_HOME/extensions/CookieWarning \
+    && git checkout -q 3c2ae6a7410769098a4bbe776f8d51d8ee4a9905 \
+    # Semantic ACL
+    && git clone --single-branch -b $MW_VERSION https://github.com/wikimedia/mediawiki-extensions-SemanticACL.git $MW_HOME/extensions/SemanticACL \
+    && cd $MW_HOME/extensions/SemanticACL \
+    && git checkout -q 62ba60127783b5f417025d2be114e39444e6e6c7 \
+    # NewUserMessage
+    && git clone --single-branch -b $MW_VERSION https://github.com/wikimedia/mediawiki-extensions-NewUserMessage.git $MW_HOME/extensions/NewUserMessage \
+    && cd $MW_HOME/extensions/NewUserMessage \
+    && git checkout -q c01509093afb8c9a21159cabfd886e5bd098559a \
+    # ShortDescription
+    && git clone --single-branch -b master https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription.git $MW_HOME/extensions/ShortDescription \
+    # DiscordNotifications
+    && git clone --single-branch -b master https://github.com/kulttuuri/DiscordNotifications.git $MW_HOME/extensions/DiscordNotifications \
+    && cd $MW_HOME/extensions/DiscordNotifications \
+    && git checkout -q 900c176c3248f9c35e7c82b13e995569395fb0a4 \
+    # Editcount
+    && git clone --single-branch -b $MW_VERSION https://github.com/wikimedia/mediawiki-extensions-Editcount.git $MW_HOME/extensions/Editcount \
+    && cd $MW_HOME/extensions/Editcount \
+    && git checkout -q 1f3859bb96d96377896710fbca3e06d2e84ba778 \
+    # ProtectSite
+    && git clone --single-branch -b $MW_VERSION https://github.com/wikimedia/mediawiki-extensions-ProtectSite.git $MW_HOME/extensions/ProtectSite \
+    && cd $MW_HOME/extensions/ProtectSite \
+    && git checkout -q 99ee9ccbe25a16acb4f0a5625c3f8c98f14de542 \
+    # AbuseFilter
+    && git clone --single-branch -b $MW_VERSION https://github.com/wikimedia/mediawiki-extensions-AbuseFilter.git $MW_HOME/extensions/AbuseFilter \
+    && cd $MW_HOME/extensions/AbuseFilter \
+    && git checkout -q 40410a7e43a043cf603f2f52d46674e4d0fd58bb
 
 # GTag1
 ADD sources/GTag1.2.0.tar.gz $MW_HOME/extensions/
@@ -616,7 +650,12 @@ RUN set -x; \
 	# Pivot
 	&& git clone -b v2.3.0 https://github.com/Hutchy68/pivot.git $MW_HOME/skins/pivot \
     && cd $MW_HOME/skins/pivot \
-    && git checkout -q -b $MW_VERSION 0d3d6b03a83afd7e1cb170aa41bdf23c0ce3e93b
+    && git checkout -q -b $MW_VERSION 0d3d6b03a83afd7e1cb170aa41bdf23c0ce3e93b \
+	# Citizen
+	&& git clone --single-branch -b game-vault https://github.com/wikivisor/mediawiki-skins-Citizen.git $MW_HOME/skins/Citizen 
+        # \
+	# && cd $MW_HOME/skins/Citizen \
+	# && git checkout -q 3b3278c7d9042b33a431f6e4a0313f8fc3622ef7 
 
 # TODO send to upstream, see https://wikiteq.atlassian.net/browse/MW-64 and https://wikiteq.atlassian.net/browse/MW-81
 COPY patches /tmp/patches
@@ -746,9 +785,9 @@ RUN set -x; \
      cd $MW_HOME/extensions/DisplayTitle \
      && git apply /tmp/patches/DisplayTitleHooks.fragment.master.patch
 
-RUN set -x; \
-    cd $MW_HOME/extensions/Mendeley \
-    && git apply /tmp/patches/Mendeley.notices.patch
+# RUN set -x; \
+#    cd $MW_HOME/extensions/Mendeley \
+#    && git apply /tmp/patches/Mendeley.notices.patch
 
 # Cleanup all .git leftovers
 RUN set -x; \

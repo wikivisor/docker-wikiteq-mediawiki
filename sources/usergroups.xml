@@ -1,0 +1,377 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>Game-Vault Wiki (Developer)</sitename>
+    <dbname>dev_gamevault</dbname>
+    <base>https://dev.game-vault.net/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Project</namespace>
+      <namespace key="5" case="first-letter">Project talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="3000" case="first-letter">News</namespace>
+      <namespace key="3001" case="first-letter">News talk</namespace>
+      <namespace key="3002" case="first-letter">Review</namespace>
+      <namespace key="3003" case="first-letter">Review talk</namespace>
+      <namespace key="3004" case="first-letter">Guide</namespace>
+      <namespace key="3005" case="first-letter">Guide talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>MediaWiki:Group-sysop</title>
+    <ns>8</ns>
+    <id>18</id>
+    <revision>
+      <id>22</id>
+      <timestamp>2022-08-02T11:00:31Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "Vault Masters"</comment>
+      <origin>22</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13" sha1="f9oco1ovictq0ym8lr6mtnrbx45cmg9" xml:space="preserve">Vault Masters</text>
+      <sha1>f9oco1ovictq0ym8lr6mtnrbx45cmg9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-sysop-member</title>
+    <ns>8</ns>
+    <id>19</id>
+    <revision>
+      <id>23</id>
+      <timestamp>2022-08-02T11:01:05Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "{{GENDER:$1|vault master}}"</comment>
+      <origin>23</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="26" sha1="fo0hhabsnlk8pd12sab5lsu32onpexg" xml:space="preserve">{{GENDER:$1|vault master}}</text>
+      <sha1>fo0hhabsnlk8pd12sab5lsu32onpexg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-farmer</title>
+    <ns>8</ns>
+    <id>5</id>
+    <revision>
+      <id>9</id>
+      <timestamp>2022-08-02T10:48:49Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "Vault Farm Admins"</comment>
+      <origin>9</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="17" sha1="qozask1vy9xtkq4q34enm8w67167yv2" xml:space="preserve">Vault Farm Admins</text>
+      <sha1>qozask1vy9xtkq4q34enm8w67167yv2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-farmer-member</title>
+    <ns>8</ns>
+    <id>6</id>
+    <revision>
+      <id>34</id>
+      <parentid>10</parentid>
+      <timestamp>2022-08-02T11:04:19Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>34</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30" sha1="nq1ycxefui4uqbmh0omuljeaz8ggm8c" xml:space="preserve">{{GENDER:$1|vault farm admin}}</text>
+      <sha1>nq1ycxefui4uqbmh0omuljeaz8ggm8c</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-founder</title>
+    <ns>8</ns>
+    <id>8</id>
+    <revision>
+      <id>12</id>
+      <timestamp>2022-08-02T10:50:40Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "Vault Wiki Founders"</comment>
+      <origin>12</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="19" sha1="aixw1pzuxiq0xaxuxt9q9staxk74vy8" xml:space="preserve">Vault Wiki Founders</text>
+      <sha1>aixw1pzuxiq0xaxuxt9q9staxk74vy8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-founder-member</title>
+    <ns>8</ns>
+    <id>7</id>
+    <revision>
+      <id>33</id>
+      <parentid>11</parentid>
+      <timestamp>2022-08-02T11:04:11Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>33</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="32" sha1="juyxbny79klc2o47s8z1p6fxjkaet0y" xml:space="preserve">{{GENDER:$1|vault wiki founder}}</text>
+      <sha1>juyxbny79klc2o47s8z1p6fxjkaet0y</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-keeper</title>
+    <ns>8</ns>
+    <id>9</id>
+    <revision>
+      <id>13</id>
+      <timestamp>2022-08-02T10:52:29Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "Vault Keepers"</comment>
+      <origin>13</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="13" sha1="fzxnwytw1ofkpa0u03vjyq5m6nunais" xml:space="preserve">Vault Keepers</text>
+      <sha1>fzxnwytw1ofkpa0u03vjyq5m6nunais</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-keeper-member</title>
+    <ns>8</ns>
+    <id>10</id>
+    <revision>
+      <id>32</id>
+      <parentid>14</parentid>
+      <timestamp>2022-08-02T11:04:04Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>32</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="26" sha1="ha24bhf11vk6dmevl6e60gw37pte90n" xml:space="preserve">{{GENDER:$1|vault keeper}}</text>
+      <sha1>ha24bhf11vk6dmevl6e60gw37pte90n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-owner</title>
+    <ns>8</ns>
+    <id>3</id>
+    <revision>
+      <id>7</id>
+      <timestamp>2022-08-02T10:46:47Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "Vault Owners"</comment>
+      <origin>7</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="12" sha1="ey2v2d7hm0bqfpddqaxblrszc5s60vy" xml:space="preserve">Vault Owners</text>
+      <sha1>ey2v2d7hm0bqfpddqaxblrszc5s60vy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-owner-member</title>
+    <ns>8</ns>
+    <id>4</id>
+    <revision>
+      <id>31</id>
+      <parentid>8</parentid>
+      <timestamp>2022-08-02T11:03:57Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>31</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="25" sha1="251z7mlxrdphpn9lgohzss2g8e1j1ux" xml:space="preserve">{{GENDER:$1|vault owner}}</text>
+      <sha1>251z7mlxrdphpn9lgohzss2g8e1j1ux</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-seeker</title>
+    <ns>8</ns>
+    <id>12</id>
+    <revision>
+      <id>16</id>
+      <timestamp>2022-08-02T10:53:45Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "Vault Knowledge Seekers"</comment>
+      <origin>16</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23" sha1="tec3lzy98d6qb8036sauhm9ez5rj748" xml:space="preserve">Vault Knowledge Seekers</text>
+      <sha1>tec3lzy98d6qb8036sauhm9ez5rj748</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Group-vault-seeker-member</title>
+    <ns>8</ns>
+    <id>11</id>
+    <revision>
+      <id>30</id>
+      <parentid>15</parentid>
+      <timestamp>2022-08-02T11:03:52Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>30</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="36" sha1="akilgmh27g9aqzijsachwmglunedx9c" xml:space="preserve">{{GENDER:$1|vault knowledge seeker}}</text>
+      <sha1>akilgmh27g9aqzijsachwmglunedx9c</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Grouppage-sysop</title>
+    <ns>8</ns>
+    <id>20</id>
+    <revision>
+      <id>24</id>
+      <timestamp>2022-08-02T11:01:41Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <comment>Created page with "{{ns:project}}:Vault Masters"</comment>
+      <origin>24</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="28" sha1="4g43mu0sjv2aazb53s5k7vrru3djw1z" xml:space="preserve">{{ns:project}}:Vault Masters</text>
+      <sha1>4g43mu0sjv2aazb53s5k7vrru3djw1z</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Grouppage-vault-farmer</title>
+    <ns>8</ns>
+    <id>16</id>
+    <revision>
+      <id>25</id>
+      <parentid>20</parentid>
+      <timestamp>2022-08-02T11:02:52Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>25</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="32" sha1="d992pj2mnccmebbynu6ycyzcf7fxhho" xml:space="preserve">{{ns:project}}:Vault Farm Admins</text>
+      <sha1>d992pj2mnccmebbynu6ycyzcf7fxhho</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Grouppage-vault-founder</title>
+    <ns>8</ns>
+    <id>15</id>
+    <revision>
+      <id>26</id>
+      <parentid>19</parentid>
+      <timestamp>2022-08-02T11:02:55Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>26</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="34" sha1="c7slo4jq6v9n0nwzfz6hawqlc07d2m4" xml:space="preserve">{{ns:project}}:Vault Wiki Founders</text>
+      <sha1>c7slo4jq6v9n0nwzfz6hawqlc07d2m4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Grouppage-vault-keeper</title>
+    <ns>8</ns>
+    <id>14</id>
+    <revision>
+      <id>27</id>
+      <parentid>18</parentid>
+      <timestamp>2022-08-02T11:02:59Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>27</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="28" sha1="sujsvtu6urcmkzd8dwg83ybrvdqnaj1" xml:space="preserve">{{ns:project}}:Vault Keepers</text>
+      <sha1>sujsvtu6urcmkzd8dwg83ybrvdqnaj1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Grouppage-vault-owner</title>
+    <ns>8</ns>
+    <id>17</id>
+    <revision>
+      <id>28</id>
+      <parentid>21</parentid>
+      <timestamp>2022-08-02T11:03:04Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>28</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="27" sha1="0jyano1wdmzotcow2g7awpyhbusu03z" xml:space="preserve">{{ns:project}}:Vault Owners</text>
+      <sha1>0jyano1wdmzotcow2g7awpyhbusu03z</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Grouppage-vault-seeker</title>
+    <ns>8</ns>
+    <id>13</id>
+    <revision>
+      <id>29</id>
+      <parentid>17</parentid>
+      <timestamp>2022-08-02T11:03:11Z</timestamp>
+      <contributor>
+        <username>Admin</username>
+        <id>1</id>
+      </contributor>
+      <origin>29</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="38" sha1="s2b4jbzepgh8ze97b6p6ubz45jyrcz6" xml:space="preserve">{{ns:project}}:Vault Knowledge Seekers</text>
+      <sha1>s2b4jbzepgh8ze97b6p6ubz45jyrcz6</sha1>
+    </revision>
+  </page>
+</mediawiki>

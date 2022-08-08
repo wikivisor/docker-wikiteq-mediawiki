@@ -7,6 +7,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 const DOCKER_SKINS = [
 	'chameleon',
+	'Citizen',
 	'CologneBlue',
 	'MinervaNeue',
 	'Modern',
@@ -45,6 +46,7 @@ const DOCKER_EXTENSIONS = [
 	'ConfirmEdit/QuestyCaptcha', # bundled
 	'ConfirmEdit/ReCaptchaNoCaptcha', # bundled
 	'ContactPage',
+	'CookieWarning',
 	'DataTransfer',
 	'DebugMode',
 	'Description2',
@@ -97,7 +99,9 @@ const DOCKER_EXTENSIONS = [
 	'MobileFrontend',
 	'MsUpload',
 	'MultimediaViewer', # bundled
+	'MultiPurge',
 	'MyVariables',
+	'NewUserMessage',
 	'NCBITaxonomyLookup',
 	'Nuke', # bundled
 	'NumerAlpha',
@@ -125,6 +129,7 @@ const DOCKER_EXTENSIONS = [
 	'Scribunto', # bundled
 	'SecureLinkFixer', # bundled
 	'SelectCategory',
+	'SemanticACL',
 	'SemanticExternalQueryLookup',
 	'SemanticExtraSpecialProperties',
 	'SemanticCompoundQueries',
@@ -132,6 +137,7 @@ const DOCKER_EXTENSIONS = [
 	'SemanticQueryInterface',
 	'SemanticResultFormats',
 	'SemanticScribunto',
+	'ShortDescription',
 	'ShowMe',
 	'SimpleChanges',
 	'SimpleMathJax',
@@ -148,7 +154,6 @@ const DOCKER_EXTENSIONS = [
 	'SyntaxHighlight_GeSHi', # bundled
 	'Tabber',
 	'Tabs',
-	'TalkRight',
 	'TemplateData', # bundled
 	'TemplateStyles',
 	'TextExtracts', # bundled

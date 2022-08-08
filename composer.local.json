@@ -10,8 +10,7 @@
 		"mediawiki/semantic-scribunto": "2.1.0",
 		"mediawiki/bootstrap-components": "4.0.1",
 		"mediawiki/sub-page-list": "1.6.1",
-		"mediawiki/header-footer": "3.0.1",
-		"mediawiki/talk-right": "2.0.0"
+		"mediawiki/header-footer": "3.0.1"
 	},
 	"extra": {
 		"merge-plugin": {
@@ -22,6 +21,7 @@
 				"extensions/Flow/composer.json",
 				"extensions/MassPasswordReset/composer.json",
 				"extensions/TimedMediaHandler/composer.json",
+				"extensions/AbuseFilter/composer.json",
 				"extensions/AntiSpoof/composer.json",
 				"extensions/TemplateStyles/composer.json",
 				"extensions/Widgets/composer.json",
